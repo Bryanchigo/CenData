@@ -1,0 +1,72 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+.top-buttons {
+    text-align: right;
+}
+
+#signin-button, #back-button {
+    background-color: #45a049;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#introduction, #page-reason, #links-reason, #census-signin {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.contact-button {
+    background-color: #45a049;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #357d3a;
+}
+
+#signin-now-button {
+    background-color: #45a049;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#signin-now-button:hover {
+    background-color: #357d3a;
+}
