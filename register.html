@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CenData - Census Made Easy</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+    <header>
+        <h1>CenData</h1>
+        <h2>Census Made Easy</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html" target="_blank">Register</a>
+        <a href="aboutUs.html">About</a>
+        <a href="contactUs.html">Contact</a>
+    </nav>
+
+    <form id="censusForm">
+        <div class="form-container">
+            <!-- Embed Google Form -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf3jTNKPDj7VkXbydw6qWvVUfDwfy2OYBj_j0Uq7X13KPMjrA/viewform?embedded=true" width="640" height="1992" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        (function (d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+                window.voiceflow.chat.load({
+                    verify: {projectID: '655b8f4b08a0550007e4d345'},
+                    url: 'https://general-runtime.voiceflow.com',
+                    versionID: 'production'
+                });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+    </script>
+    <script src="https://apis.google.com/js/api.js?onload=handleClientLoad"></script>
+    <footer>
+        <p>&copy; 2024 CenData. All rights reserved.</p>
+        <img src="images/bereton.png" alt="" height="100px" width="100px" class="sponsor-logo">
+        <p>Sponsored by Bereton Montessori School</p>
+    </footer>
+</body>
+</html>

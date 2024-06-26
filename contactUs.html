@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="contactUs.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CenData - Census Made Easy</title>
+</head>
+<body>
+    <header>
+        <img src="images/CenData.png" alt="CenData Logo" class="logo">
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html" target="_blank">Register</a></li>
+                <li><a href="aboutUs.html">About</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Welcome to our Census Counting Community!</h2>
+            <p>We are thrilled to have you as part of our community, contributing to the important task of census counting. Your participation is crucial for accurate data collection.</p>
+        </section>
+
+        <section id="page-reason">
+            <h2>Why This Page?</h2>
+            <p>This page serves as a hub for all your inquiries, feedback, and concerns related to the census counting process. We want to make sure you have a seamless experience and all your questions are addressed promptly.</p>
+        </section>
+
+        <section id="links-reason">
+            <h2>Explore Relevant Links</h2>
+            <p>Below are the various channels through which you can connect with us:</p>
+            <ul>
+                <li><button class="contact-button" onclick="openLink('https://maps.app.goo.gl/4GX7roUsrfDznjPdA')">Address</button></li>
+                <li><button class="contact-button" onclick="openLink('https://web.facebook.com/beretonschool?mibextid=ZbWKwL&_rdc=1&_rdr')">Facebook</button></li>
+                <li><button class="contact-button" onclick="openLink('https://www.instagram.com/beretonschool/?igshid=MzMyNGUyNmU2YQ%3D%3D')">Instagram</button></li>
+                <li><button class="contact-button" onclick="openLink('https://beretonmontessori.com/')">Website</button></li>
+            </ul>
+        </section>
+
+        <section id="census-signin">
+            <h2>Count Yourself In!</h2>
+            <p>To ensure your active participation in the census counting, please sign up using your National Identification Number (NIN) and birth certificate. Your data is secure and contributes to the accuracy of our census.</p>
+            <a href="register.html" target="_blank"><button id="signin-now-button">Register Now</button></a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CenData. All rights reserved.</p>
+        <img src="images/bereton.png" alt="Bereton Logo" class="sponsor-logo">
+        <p>Sponsored by Bereton Montessori School</p>
+    </footer>
+
+    <script>
+        function openLink(url) {
+            window.location.href = url;
+        }
+    </script>
+    <script type="text/javascript">
+        (function (d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+                window.voiceflow.chat.load({
+                    verify: {projectID: '655b8f4b08a0550007e4d345'},
+                    url: 'https://general-runtime.voiceflow.com',
+                    versionID: 'production'
+                });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+    </script>
+</body>
+</html>

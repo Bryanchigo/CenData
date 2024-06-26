@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CenData - Census Made Easy</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            font-size: larger;
+            background-color: #f4f4f4;
+            background-image: url(images/CenData.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        img {
+            text-align: left;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+            margin: 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 12px;
+            margin: 0 5px;
+            border-radius: 4px;
+            transition: border-bottom 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-bottom: 2px solid #fff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            color: #fff;
+            background-color: rgba(51, 51, 51, 0.7);
+        }
+
+        .hero h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero a:hover {
+            background-color: #555;
+            color: #fff;
+        }
+
+        .features {
+            text-align: center;
+            padding: 50px;
+            background-color: #fff;
+        }
+
+        .features h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        #about {
+            text-align: center;
+            padding: 50px;
+            color: #fff;
+        }
+
+        #about h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        #about p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        footer .sponsor-logo {
+            max-width: 100px;
+            margin: 10px 0;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="images/CenData.png" alt="" height="100px" width="100px"
+                style="border-radius: 500px;">
+        <h1>CenData</h1>
+        <h2>Census Made Easy</h2>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html" target="_blank">Register</a>
+        <a href="aboutUs.html">About</a>
+        <a href="contactUs.html">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Welcome to CenData</h2>
+        <p>Census Made Easy - Simplifying data collection for a better tomorrow.</p>
+        <a href="register.html" target="_blank">Get Started</a>
+    </div>
+
+    <div class="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Easy-to-use Census Form</li>
+            <li>Secure Data Storage</li>
+            <li>Quick Submission Process</li>
+            <li>Efficient Data Collation</li>
+        </ul>
+        <h3>Intelligent Virtual Assistant</h3>
+        <ul>
+            <li>Assists users in form completion</li>
+            <li>Answers queries related to census data</li>
+            <li>Provides guidance and support</li>
+        </ul>
+    </div>
+    
+
+    <section id="about">
+        <h2>About CenData</h2>
+        <p>CenData is a user-friendly platform designed to simplify the process of collecting and collating census data. Our goal is to streamline the data collection process, making it efficient and accessible for everyone.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CenData. All rights reserved.</p>
+        <img src="images/bereton.png" alt="" height="100px" width="100px" class="sponsor-logo">
+        <p>Sponsored by Bereton Montessori School</p>
+    </footer>
+    <script type="text/javascript">
+        (function (d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+                window.voiceflow.chat.load({
+                    verify: {projectID: '655b8f4b08a0550007e4d345'},
+                    url: 'https://general-runtime.voiceflow.com',
+                    versionID: 'production'
+                });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+    </script>
+</body>
+</html>
