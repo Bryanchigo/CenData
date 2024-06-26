@@ -11,6 +11,7 @@ CenData is a comprehensive platform dedicated to simplifying the process of cens
 - **Data Analysis**: Advanced analytics to help interpret and understand census data.
 - **Community Engagement**: Platform for community members to contribute and stay informed about census activities.
 - **Resource Hub**: Access to educational materials, tutorials, and support to aid in census data collection and analysis.
+-  **Intelligent Virtual Assistant**: A smart assistant that provides real-time support, answers queries, guides users through the platform, and offers personalized assistance based on user interactions.
 
 ## Getting Started
 
