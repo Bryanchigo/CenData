@@ -23,7 +23,7 @@ To get started with CenData, follow these steps:
 
 ## Contribution
 
-We welcome contributions from the community to help improve CenData. If you are interested in contributing, please follow our [Contribution Guidelines](CONTRIBUTING.md) and check our [Code of Conduct](CODE_OF_CONDUCT.md).
+We welcome contributions from the community to help improve CenData.
 
 ## License
 
