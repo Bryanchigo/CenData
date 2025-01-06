@@ -26,7 +26,7 @@ We welcome contributions from the community to help improve CenData.
 The licensing details for CenData will be determined and published soon. Please check back later for more information.
 
 ### Acknowledgements
-We would like to extend our sincere gratitude to the **Bereton Management**, **ICT Department** and the **students** for their invaluable contributions to the development of CenData. Their support has played a critical role in the success of this project. 
+We would like to extend our sincere gratitude to the **Bereton Management**, **Bereton ICT Department** and the **students** for their invaluable contributions to the development of CenData. Their support has played a critical role in the success of this project. 
 
 Special thanks to:
 - **Victor-Okahia Bryan Chigozirim**
